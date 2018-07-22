@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic');
+
+$emerald: #2ecc71;
+$river: #3498db;
+$amethyst: #9b59b6;
+$graphite: #2c3e50;
+$white: #fff;
+
+* {box-sizing: border-box;}
+
+/* ========= BODY ===========*/
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* ======== HEADER ========== */
+
+.container {
+	margin: 0 auto;
+	width: 100%;
+    max-width: 1200px;
+}
+
+%headers {
+    margin: 0;
+	
+	color: $graphite;
+    word-spacing: 5px;
+    text-align: center;
+}
+
+header {
+    padding: 0 10px;
+	width: 100%;
+	background-color: $emerald;
+    h1 {
+        padding: 10px 0 0 0;
+        @extend %headers;
+        font-size: 32px;
+        text-transform: uppercase;
+    }
+
+    h3 {
+        padding: 0 0 10px 0;
+        @extend %headers;
+        font-size: 20px;
+    }
+}
+
+/* ======= MAIN ==========*/
+main {
+	margin: 0 auto;
+}
+
+section {
+	margin: 50px auto;
+	padding: 0;
+	text-align: center;
+}
+
+/* ======= FOOTER ======== */
+footer {
+	padding: 0;
+	background-color: $river;
+	text-align: center;
+	& > p {
+		margin: 0;
+		padding: 20px 0;
+        color: $graphite;
+    }
+}
