@@ -1,81 +1,32 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic");
-* {
-  box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
-.test {
-  display: flex;
-  flex-wrap: wrap;
-}
+.test { display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; }
 
 /* ========= BODY ===========*/
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Open Sans', sans-serif;
-}
+body { margin: 0; padding: 0; font-family: 'Open Sans', sans-serif; }
 
 /* ======== HEADER ========== */
-.container {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1200px;
-}
+.container { margin: 0 auto; width: 100%; max-width: 1200px; }
 
-.container2 {
-  display: flex;
-}
+.container2 { display: -ms-flexbox; display: flex; }
 
-header h1, header h3 {
-  margin: 0;
-  color: #2c3e50;
-  word-spacing: 5px;
-  text-align: center;
-}
+header h1, header h3 { margin: 0; color: #2c3e50; word-spacing: 5px; text-align: center; }
 
-header {
-  padding: 0 10px;
-  width: 100%;
-  background-color: #2ecc71;
-}
+header { padding: 0 10px; width: 100%; background-color: #2ecc71; }
 
-header h1 {
-  padding: 10px 0 0 0;
-  font-size: 32px;
-  text-transform: uppercase;
-}
+header h1 { padding: 10px 0 0 0; font-size: 32px; text-transform: uppercase; }
 
-header h3 {
-  padding: 0 0 10px 0;
-  font-size: 20px;
-}
+header h3 { padding: 0 0 10px 0; font-size: 20px; }
 
 /* ======= MAIN ==========*/
-main {
-  margin: 0 auto;
-}
+main { margin: 0 auto; }
 
-section {
-  margin: 50px auto;
-  padding: 0;
-  text-align: center;
-}
+section { margin: 50px auto; padding: 0; text-align: center; }
 
-.dev1 {
-  color: #2ecc71;
-}
+.dev1 { color: #2ecc71; }
 
 /* ======= FOOTER ======== */
-footer {
-  padding: 0;
-  background-color: #3498db;
-  text-align: center;
-}
+footer { padding: 0; background-color: #3498db; text-align: center; }
 
-footer > p {
-  margin: 0;
-  padding: 20px 0;
-  color: #2c3e50;
-}
-
-/*# sourceMappingURL=style.css.map */
+footer > p { margin: 0; padding: 20px 0; color: #2c3e50; }
