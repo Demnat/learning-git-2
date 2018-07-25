@@ -8,6 +8,11 @@ $white: #fff;
 
 * {box-sizing: border-box;}
 
+.test {
+	display: flex;
+	flex-wrap: wrap;
+}
+
 /* ========= BODY ===========*/
 body {
 	margin: 0;
@@ -65,7 +70,7 @@ section {
 }
 
 .dev1 {
-    color: $river;
+    color: $emerald;
 }
 
 /* ======= FOOTER ======== */
